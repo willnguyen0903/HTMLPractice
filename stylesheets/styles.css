@@ -1,0 +1,154 @@
+body {
+  font-family: 'Roboto';
+  background: #1f2937;
+  height: 100%;
+}
+.header-container, .hero{
+  display: flex;
+  padding-top: 20px;
+  padding-right: 280px;
+  padding-left: 280px;
+  gap: 30px;
+}
+.header-logo {
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: auto;
+}
+.header-link, p{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero {
+  padding-top: 150px;
+  align-items: center;
+}
+h1{
+  color: #F9FAF8;
+  font-weight: bolder;
+  font-size: 48px;
+}
+.sign-up-button, #ad-button{
+  width: 135px;
+  height: 40px;
+  background-color: #3382f6;
+  font-size: 18px;
+  border-radius: 10px;
+  color:#F9FAF8;
+}
+.sign-up-button {
+  border-style: none;
+}
+.hero-text {
+  width: 500px;
+  margin-right: auto;
+}
+#image-holder {
+  width: 600px;
+  height: 280px;
+  background-color: #667083fa;
+  color:#e5e7eb;
+  font-size: 18px;
+  text-align: center;
+  line-height: 280px;
+}
+
+.information {
+  margin-top: 30px;
+  background-color: #F9FAF8;
+  height: 400px;
+  width: 100%;
+  margin-top: 150px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.information h1 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center; 
+}
+.box-container{
+ display: flex;
+ justify-content: center;
+ gap: 55px;
+}
+#box {
+  border-style: solid;
+  border-color: #3382f6;
+  border-radius: 10px;
+  width: 160px;
+  height: 160px;
+}
+#box p {
+  margin-top: 180px;
+  text-align: center;
+  color: black;
+}
+
+.quotes {
+  display: flex;
+  height: 300px;
+  background-color: #e5e7eb;
+  flex-direction: column;
+  padding: 150px 150px 10px 150px;
+}
+
+.quotes h1 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color:#1f2937;
+  text-align: center;
+}
+.quotes p {
+  font-size: 30px;
+  font-weight: bolder;
+  color:#1f2937;
+  text-align: end;
+}
+
+.ads {
+  background-color: #F9FAF8;
+  height: 200px;
+  padding: 150px 200px 150px 200px;
+}
+.ad-box {
+  display: flex;
+  background-color: #3382f6;
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 12px;
+}
+#ad-text, #ad-button {
+  margin: 50px 150px 50px 150px;
+}
+#ad-text {
+  margin-right: 100px;
+}
+#ad-text h1{
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+#ad-text p {
+  margin-top: 5px;
+}
+
+#ad-button {
+  margin-top: 90px;
+  border-style: solid;
+  border-color: #F9FAF8;
+}
+
+footer {
+  font-size: 18px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#F9FAF8;
+  height: 100px;
+}
