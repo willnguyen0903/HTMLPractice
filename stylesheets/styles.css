@@ -1,7 +1,6 @@
 body {
   font-family: 'Roboto';
   background: #1f2937;
-  height: 100%;
 }
 .header-container, .hero{
   display: flex;
@@ -10,10 +9,11 @@ body {
   padding-left: 280px;
   gap: 30px;
 }
+.header-logo img{
+  width: 100px;
+  height: 100px;
+}
 .header-logo {
-  color: #F9FAF8;
-  font-weight: bold;
-  font-size: 24px;
   margin-right: auto;
 }
 .header-link, p{
@@ -24,10 +24,14 @@ body {
   padding-top: 150px;
   align-items: center;
 }
-h1{
+.hero h1{
   color: #F9FAF8;
   font-weight: bolder;
   font-size: 48px;
+  margin-bottom: 0px;
+}
+.hero p {
+  margin-top: 0px;
 }
 .sign-up-button, #ad-button{
   width: 135px;
@@ -44,13 +48,10 @@ h1{
   width: 500px;
   margin-right: auto;
 }
-#image-holder {
+.image-slides .slide1{
   width: 600px;
   height: 280px;
   background-color: #667083fa;
-  color:#e5e7eb;
-  font-size: 18px;
-  text-align: center;
   line-height: 280px;
 }
 
@@ -83,11 +84,14 @@ h1{
   height: 160px;
 }
 #box p {
-  margin-top: 180px;
+  margin-top: 10px;
   text-align: center;
   color: black;
 }
-
+#box img {
+  width: 100%;
+  height: 100%;
+}
 .quotes {
   display: flex;
   height: 300px;
